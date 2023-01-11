@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>document</title>
+  <script defer src="classNoDom.js"></script>
+  <style>
+    html{
+      scroll-behavior: smooth;
+    }
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-size: 1.2em;
+    }
+    nav{
+      background-color: rgb(0, 0, 0);
+      position: fixed;
+      z-index: 1;
+      width: 100%;  
+    }
+    nav > a{
+      color: white;
+      text-decoration: none;
+    }
+    div{
+      padding-top: 100px;
+      width: 100%;
+      height: 100vh;
+    }
+    #tela1{
+      background-color: aquamarine;
+    }
+    #tela2{
+      background-color: crimson;
+    }
+    #tela3{
+      background-color: greenyellow;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#tela1">tela1</a><a href="#tela2">tela2</a><a href="#tela3">tela3</a>
+  </nav>
+  <main>
+    <div id="tela1">tela1</div>
+    <div id="tela2">tela2</div>
+    <div id="tela3">tela3</div>
+  </main>
+</body>
+</html>
