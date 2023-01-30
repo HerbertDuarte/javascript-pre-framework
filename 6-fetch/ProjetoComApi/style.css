@@ -70,3 +70,12 @@ a::after{
   resize: none;
   border-radius: 6px;
 }
+
+footer{
+  text-align: center;
+  padding-top: 300px;
+}
+
+footer > span{
+  color: #ecb652;
+}
